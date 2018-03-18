@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Naspry</title>
+<script>
+function O(i) { return typeof i == 'object' ? i : document.getElementById(i) }
+function S(i) { return O(i).style }
+function C(i) { return document.getElementsByClassName(i) }
+</script>
+</head>
+<body>
+<h2>Naspry</h2><br><br>
+<input type="text" name="textfield" id="msg"/>
+<input type="button" value="Send" onclick="sendMsg()"/>
+<script>
+function sendMsg()
+{
+	message = document.getElementById('msg').value
+	newdiv = document.createElement('div')
+	newdiv.id = 'NewDiv'
+	document.body.appendChild(newdiv)
+	S(newdiv).border = 'solid 1px black'
+	newdiv.innerHTML = message
+	tmp = newdiv.offsetTop
+}
+</script>
+</body>
+</html>
