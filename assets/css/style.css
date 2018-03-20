@@ -27,13 +27,13 @@ input[type=text] {
   padding: 8px;
   font-size: 15px;
   margin: 8px 0;
-  box-sizing: border-box;
   border: 2px solid #bcbcbd;
   border-radius: 4px;
 }
+
 input:focus {
-    outline: none !important;
-    border-color: #717274;
+  outline: none !important;
+  border-color: #717274;
 }
 
 .attach-btn {

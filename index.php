@@ -13,14 +13,14 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/corners.css" rel="stylesheet">
   </head>
 
   <body>
+    <script src="assets/js/bodyJs/contentJavaScript.js"></script>
     <div class="container-fluid">
 
 
@@ -41,21 +41,34 @@
         <div class="main">
           <!-- Div Header edit here -->
 
-          <div class="row" style="overflow:hidden !important;padding:10px;border:0px solid black;z-index:0;background-color:#fff;position:fixed;top:0;width: 100%;">
+          <div class="row" style="overflow:hidden !important;padding:10px;border:0px solid black;z-index:0;background-color:gray;position:fixed;top:0;width: 100%;">
             Header
           </div>
           <!-- Div Header ends here -->
 
           <!-- Div Content edit here -->
-      
-          <div class="fixed">
-        <table><tr>
-        <td><button class="attach-btn"><img src="assets/images/plus-icon.png" height=20 width=20></button></td>
-        <td style="width:1300px"><input type="text" placeholder="Message #general"></td>
-        </tr>
+          <!--content starts-->
+          <div id="msgDiv" style="margin-top:30px;margin-bottom:60px">
+            <!--msg table starts-->
+            <table border="0" id="msgTable" class="rcorners">
+
+            </table>
+            </div>
+
+
+
+<!--msg table ends-->
+        <div class="fixed">
+
+        <table>
+          <tr>
+          <td><input class="attach-btn" type="button" value="+"></td>
+          <td style="width:1300px"><input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
+          </tr>
         </table>
         </div>
-        <!-- Div content ends here -->
+
+            <!--content ends-->
       </div>
      </div>
     </div>
