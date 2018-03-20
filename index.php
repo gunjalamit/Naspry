@@ -13,7 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 
      <div class="row" style="margin-top:30px;">
-      <div id="navigation" class="col-lg-2 col-md-3 col-sm-3" style="background-color:black;margin-top:-30px;height:600px;">
+      <div id="navigation" class="col-lg-2 col-md-3 col-sm-3" style="background-color:#4d394b;margin-top:-30px;height:700px;">
         <ul style="margin-top:20px;">
           <li><a href="#">Link 1</a></li>
           <li><a href="#">Link 1</a></li>
@@ -39,16 +39,23 @@
 
       <div id="main" class="col-lg-10 col-md-9 col-sm-9 fill">
         <div class="main">
-          <div class="row" style="overflow:hidden !important;padding:10px;border:0px solid black;z-index:0;background-color:#009afd;position:fixed;top:0;width: 100%;">
+          <!-- Div Header edit here -->
+
+          <div class="row" style="overflow:hidden !important;padding:10px;border:0px solid black;z-index:0;background-color:#fff;position:fixed;top:0;width: 100%;">
             Header
           </div>
+          <!-- Div Header ends here -->
+
+          <!-- Div Content edit here -->
+      
           <div class="fixed">
         <table><tr>
-        <td><input class="attach-btn" type="button" value="+"></td>
+        <td><button class="attach-btn"><img src="assets/images/plus-icon.png" height=20 width=20></button></td>
         <td style="width:1300px"><input type="text" placeholder="Message #general"></td>
         </tr>
         </table>
         </div>
+        <!-- Div content ends here -->
       </div>
      </div>
     </div>
