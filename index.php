@@ -13,14 +13,16 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href=assets/css/corners.css" rel="stylesheet">
   </head>
 
   <body>
+    <script src="assets/js/bodyJs/contentJavaScript.js"></script>
     <div class="container-fluid">
 
 
@@ -42,13 +44,25 @@
           <div class="row" style="overflow:hidden !important;padding:10px;border:0px solid black;z-index:0;background-color:#009afd;position:fixed;top:0;width: 100%;">
             Header
           </div>
-          <div class="fixed">
+          <!--content starts-->
+          <div id="msgDiv">
+            <!--msg table starts-->
+            <table id="msgTable" class="rcorners table" border='1'>
+            </table>
+            </div>
+       
+<!--msg table ends-->
+        <div class="fixed">
         <table><tr>
         <td><input class="attach-btn" type="button" value="+"></td>
-        <td style="width:1300px"><input type="text" placeholder="Message #general"></td>
+        <td style="width:1300px">
+          <input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
         </tr>
         </table>
         </div>
+
+            <!--content ends-->
+
       </div>
      </div>
     </div>
