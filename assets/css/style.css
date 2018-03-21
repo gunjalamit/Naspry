@@ -3,7 +3,9 @@
     position: fixed;
   }
 }
-
+.links{
+  text-decoration: none;
+}
 div.parent {
   position: relative;
   height: 200px;
@@ -22,9 +24,10 @@ div.sticky {
   bottom: 10px;
 }
 
-input[type=text] {
+.fixed input[type=text] {
   width: 82%;
   padding: 8px;
+  padding-right: 0;
   font-size: 15px;
   margin: 8px 0;
   border: 2px solid #bcbcbd;
@@ -51,5 +54,28 @@ input:focus {
   background-color: #56b68b;
   color: white;
   font-size: 15px;
+
   border: 3px solid #2ea664;
+}
+.border-element{
+  border: 1px solid black;
+}
+.background-white{
+  background-color: white;
+}
+.background-f5{
+  background-color: #F5F5F5;
+}
+.head-css{
+  overflow:hidden
+  ;padding:10px;z-index:0;position:fixed;top:0;width: 100%;
+}
+.padding-left-6px{
+  padding-left: 15px;
+}
+.search-box{
+  padding-top: 10px;
+}
+.header-color{
+  color:#757575;
 }

@@ -3,14 +3,14 @@ body {
 }
 
 .sidenav {
-  top: 48px;
+  top: 77px;
   height: 100%;
-  height:500px;
+  height:600px;
   width: 0;
   position: fixed;
   z-index: 1;
   right: 0;
-  background-color: #E0E0E0;
+  background-color: #F5F5F5;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 100px;
@@ -35,14 +35,6 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
-
-#content {
 }
 
 @media screen and (max-height: 450px) {
