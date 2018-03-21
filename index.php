@@ -17,10 +17,12 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/corners.css" rel="stylesheet">
+    <link href="assets/css/right-side-menu.css" rel="stylesheet">
   </head>
 
   <body>
     <script src="assets/js/bodyJs/contentJavaScript.js"></script>
+    <script src="assets/js/right-side-menu.js"></script>
     <div class="container-fluid">
 
 
@@ -70,39 +72,50 @@
 
       <div id="main" class="col-lg-10 col-md-9 col-sm-9 fill">
         <div class="main">
-          <!-- Div Header edit here -->
+              <!-- Div Header edit here -->
 
-          <div class="row" style="overflow:hidden !important;padding:10px;border:0px solid black;z-index:0;background-color:gray;position:fixed;top:0;width: 100%;">
-            Header
-          </div>
-          <!-- Div Header ends here -->
+              <div class="row rowheader" style="overflow:hidden !important;padding:10px;border:0px solid black;z-index:0;background-color:grey;position:fixed;top:0;width: 100%;">
+                <button class="btn bg-light" align="right" onclick="openNav();">Settings</button>
+                Header
+              </div>
+              <!-- Div Header ends here -->
 
-          <!-- Div Content edit here -->
-          <!--content starts-->
-          <div id="msgDiv" style="margin-top:30px;margin-bottom:60px">
-            <!--msg table starts-->
-            <table border="0" id="msgTable" class="rcorners">
+              <!-- Div Content edit here -->
+              <!--content starts-->
+              <div id="content" style="border:1px solid red;">
+                  <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                  </div>
 
-            </table>
+              <div id="msgDiv" style="margin-top:30px;margin-bottom:60px">
+                <!--msg table starts-->
+                  <table border="0" id="msgTable" class="rcorners">
+
+                  </table>
+              </div>
+
+
+
+    <!--msg table ends-->
+            <div class="fixed">
+              <table>
+                  <tr>
+                  <td><input class="attach-btn" type="button" value="+"></td>
+                  <td style="width:1150px;"><input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
+                  </tr>
+              </table>
             </div>
+          </div>
 
-
-
-<!--msg table ends-->
-        <div class="fixed">
-
-        <table>
-          <tr>
-          <td><input class="attach-btn" type="button" value="+"></td>
-          <td style="width:1300px"><input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
-          </tr>
-        </table>
-        </div>
-
-            <!--content ends-->
-      </div>
+                <!--content ends-->
+          </div>
      </div>
     </div>
+  </div>
 
   </body>
 
