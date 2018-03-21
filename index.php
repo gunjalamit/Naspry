@@ -70,8 +70,8 @@
                   </div>
                   <div class="row">
                         <div class="col-sm-12" >
-                                <label id="staryellowid" onclick="staryellowclick()">
-                                  <img src="assets/images/star.svg" width="12" height="12"  data-toggle="tooltip" data-placement="bottom" title="Star this channel"/> |</label>
+                                <label id="staryellowid">
+                                  <img src="assets/images/star.svg" onclick="staryellowclick()" width="12" height="12"  data-toggle="tooltip" data-placement="bottom" title="Star this channel"/> |
 
                                   <img src="assets/images/usericon.jpg" data-toggle="tooltip" data-placement="bottom" title="View member list" onclick="assets/images/pngfill.png" width="12" height="12"/>
 
@@ -87,7 +87,7 @@
                 </div>
 
       </div>
-                 <div class="row" style="margin-left:0px;">
+                 <div class="row" style="margin-left:-20px;">
                   <div class="padding-left-6px" style="margin-top:15px" >
                     <img src="assets/images/icon-call.png" width="18" height="18"  onclick="callclick();" style="vertical-align:middle;" data-placement="bottom" title="Only paid workspace can start calls from channel">
                   </div>
@@ -98,9 +98,14 @@
                         <img src="assets/images/icon-settings.png" width="18" height="18" onclick="settingclick();" data-placement="bottom" title="Channel Setting"/>
                   </div>
                     <div class="search-box padding-left-6px" >
-                       <!--<form class="form-inline ">-->
-                       <input class="form-control" type="text" oninput="" placeholder="Search">
-                       <!-- </form>  -->
+                      <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1" ><img src="assets/images/icon-search.png" height="12" width="12"/></span>
+                      </div>
+                      <!--<form class="form-inline ">-->
+                      <input class="form-control"  type="text" oninput="" placeholder="Search">
+                      <!-- </form>  -->
+                    </div>
                     </div>
                     <div class="padding-left-6px" style="margin-top:15px">
                       <img src="assets/images/icon-at-the-rate.png" width="18" height="18" onclick="openNav();" data-placement="bottom" title="Hinde Starred Items"/>
