@@ -87,7 +87,7 @@
                 </div>
 
       </div>
-                 <div class="row" style="margin-left:-20px;">
+                 <div class="row" style="margin-left:-50px;">
                   <div class="padding-left-6px" style="margin-top:15px" >
                     <img src="assets/images/icon-call.png" width="18" height="18"  onclick="callclick();" style="vertical-align:middle;" data-placement="bottom" title="Only paid workspace can start calls from channel">
                   </div>
