@@ -181,7 +181,7 @@
                 <div class="col-sm-7 col-lg-12" >
                   <div class="row">
                         <div class="col-sm-10">
-                          <div class="chanelname" padding-left:5px><b>#general</b></div>
+                          <div class="chanelname" padding-left:5px><b>#shweta</b></div>
 
                         </div>
                   </div>
