@@ -24,6 +24,7 @@
     <link href="assets/css/divpadding.css" rel="stylesheet">
     <link href="assets/css/dropdown.css" rel="stylesheet">
     <link href="assets/css/tooltip.css" rel="stylesheet">
+    <link href="assets/css/option-menu.css" rel="stylesheet">
     <link href="assets/css/notification_dropdown.css" rel="stylesheet">
 
   </head>
@@ -38,6 +39,7 @@
     <script src="assets/js/belltooltip.js"></script>
     <script src="assets/js/channels.js"></script>
     <script src="assets/js/dropdown.js"></script>
+    <script src="assets/js/option-menu.js"></script>
 
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -46,6 +48,16 @@
         <a href="#">Clients</a>
         <a href="#">Contact</a>
     </div>
+
+    <div id="optionmenu" class="menuoption">
+     <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeOptionMenu()">&times;</a> -->
+     <a href="#">Your files</a>
+     <a href="#">All FIles</a>
+     <a href="#">workspace directory</a>
+     <a href="#">Help</a>
+     <a href="#">Whats new</a>
+     <a href="#">Keyboard Shotcut</a>
+ </div>
 
     <div class="container-fluid">
 
@@ -108,22 +120,22 @@
       <a href="#" class="bodyclr"><img src="assets/images/allthread.png" height="20" width="20">All Threads</a>
     </div>
     <div id="channeldiv" style="height:180px;">
-        <div class="links" id="channelid"><a href="#" class="bodyclr" onclick="backcolor();">Channels</a><a href="#" rel="tooltip" title="Create a channel"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
-        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
-        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
-        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
-        <div class="links"><a href="#" class="bodyclr"><img src="assets/images/test1.png" height="10" width="12">&nbsp;&nbsp;test</a></div>
-        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
+        <div class="links users" id="channelid"><a href="#" class="bodyclr" onclick="backcolor();">Channels</a><a href="#" rel="tooltip" title="Create a channel"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
+        <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
+        <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
+        <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
+        <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
+        <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
     </div>
     <div id="persoldiv" style="height:220px;">
-      <div class="links"><a href="#" class="bodyclr">Direct Messages</a><a href="#" rel="tooltip" title="Open a direct message"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
-      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
-      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;priya</a></div>
-      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
-      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
-      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;nagesh</a></div>
-      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;shweta</a></div>
-      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan (you)</a></div>
+      <div class="links users"><a href="#" class="bodyclr">Direct Messages</a><a href="#" rel="tooltip" title="Open a direct message"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
+      <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
+      <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;priya</a></div>
+      <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
+      <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
+      <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;nagesh</a></div>
+      <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;shweta</a></div>
+      <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan (you)</a></div>
     </div>
     <div class="links" id="invitediv" style="height:50px;">
       <a href="#" class="bodyclr links">&nbsp;+&nbsp;&nbsp;Invite People</a><br>
@@ -219,7 +231,7 @@
                       <img src="assets/images/star.svg" width="18" height="18" onclick="openNav();" data-placement="bottom" title="Hinde Starred Items"/>
                     </div>
                       <div class="padding-left-6px" style="margin-top:15px;">
-                        <img src="assets/images/option.png" width="18" height="18" onclick="openNav();" class="header-option" data-placement="bottom" title="Mroe Items"/>
+                        <img src="assets/images/option.png" width="18" height="18" onclick="openOptionMenu();" class="header-option" data-placement="bottom" title="Mroe Items"/>
                       </div>
       <!--rigth close-->
 
