@@ -18,6 +18,14 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/corners.css" rel="stylesheet">
     <link href="assets/css/right-side-menu.css" rel="stylesheet">
+    <link href="assets/css/bell.css" rel="stylesheet">
+    <link href="assets/css/channel.css" rel="stylesheet">
+    <link href="assets/css/bodytext.css" rel="stylesheet">
+    <link href="assets/css/divpadding.css" rel="stylesheet">
+    <link href="assets/css/dropdown.css" rel="stylesheet">
+    <link href="assets/css/tooltip.css" rel="stylesheet">
+    <link href="assets/css/notification_dropdown.css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -26,6 +34,10 @@
     <script src="assets/js/dropjs.js"></script>
     <script src="assets/js/headerclick.js"></script>
     <script src="assets/js/right-side-menu.js"></script>
+    <script src="assets/js/bellfunction.js"></script>
+    <script src="assets/js/belltooltip.js"></script>
+    <script src="assets/js/channels.js"></script>
+    <script src="assets/js/dropdown.js"></script>
 
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -39,11 +51,104 @@
 
      <div class="row" style="margin-top:30px;">
       <div id="navigation" class="col-lg-2 col-md-3 col-sm-3" style="background-color:#4d394b;margin-top:-30px;height:700px;">
-        <ul style="margin-top:20px;">
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 1</a></li>
-        </ul>
+
+
+
+        <div class="row" style="background-color:#4d394b;height:100px;">
+  <div class="col-sm-10" id="sidebar">
+    <div class="dropdown"><p style="color:white; font-size:20px;"> <b>team-gsm </b>
+      <label onclick="myFunction();" class="dropbtn dropdown-toggle" ></label><br><img src="assets/images/icon-active.png" width="15" height="15" ><label style="font-size:15px; color:gray;margin-top:-1px;">&nbsp;&nbsp;rohan</label>
+      <div id="myDropdown" class="dropdown-content">
+        <div>
+          <table>
+            <tr>
+              <td rowspan="2"><img src="assets/images/profile.png" width="40" height="40" ></td>
+              <td><th>Priya</th></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><h6 style="color:gray;">priya khaire</h6></td>
+            </tr>
+          </table>
+          <a href="#" class="links">Set s Status</a>
+          <a href="#" class="links">Profile & Account</a>
+          <a href="#" class="links">Preferences</a>
+          <a href="#" class="links">Self Yourself Away</a>
+          <a href="#" class="links">Help & Feedback</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--notification bell-->
+  <div class="col-sm-2">
+    <div class="dropdownbell">
+      <a href="#" rel="tooltip" title="Notification"><img src="assets/images/icon-bell.png" onclick="bellfunction();" class="dropbtnbell"></a>
+      <div id="mybell" class="dropdownbell-content">
+        <h6 style="color:gray; padding-left:10px;">Snooze notification_____</h6>
+        <a href="#" class="links">20 minuts</a>
+        <a href="#" class="links">1 hour</a>
+        <a href="#" class="links">2 hours</a>
+        <a href="#" class="links">4 hours</a>
+        <a href="#" class="links">8 hours</a>
+        <a href="#" class="links">24 hours</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row" style="overflow-y: scroll;background-color:#4d394b;height:700px;">
+  <div class="col-sm-12" id="personaldiv" style="height:700px;">
+    <div style="height:10px;" class="links">
+      <a href="#" class="bodyclr">.</a>
+    </div>
+    <div style="height:50px;" class="links">
+      <a href="#" class="bodyclr"><img src="assets/images/bh.png" height="20" width="20"/>jump to..</a>
+    </div>
+    <div class="links" style="height:50px;">
+      <a href="#" class="bodyclr"><img src="assets/images/allthread.png" height="20" width="20">All Threads</a>
+    </div>
+    <div id="channeldiv" style="height:180px;">
+        <div class="links" id="channelid"><a href="#" class="bodyclr" onclick="backcolor();">Channels</a><a href="#" rel="tooltip" title="Create a channel"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
+        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
+        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
+        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
+        <div class="links"><a href="#" class="bodyclr"><img src="assets/images/test1.png" height="10" width="12">&nbsp;&nbsp;test</a></div>
+        <div class="links"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
+    </div>
+    <div id="persoldiv" style="height:220px;">
+      <div class="links"><a href="#" class="bodyclr">Direct Messages</a><a href="#" rel="tooltip" title="Open a direct message"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
+      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
+      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;priya</a></div>
+      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
+      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
+      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;nagesh</a></div>
+      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;shweta</a></div>
+      <div class="links"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan (you)</a></div>
+    </div>
+    <div class="links" id="invitediv" style="height:50px;">
+      <a href="#" class="bodyclr links">&nbsp;+&nbsp;&nbsp;Invite People</a><br>
+    </div>
+    <div class="links" id="appdiv" style="height:50px">
+      <a href="#" class="bodyclr">&nbsp;&nbsp;Apps</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" rel="tooltip" title="Browse apps"><img src="assets/images/add2.png" height="17" width="17"/></a><br>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
 
       <div class="col-lg-2 col-md-3 col-sm-3 hidden-xs">
@@ -114,7 +219,7 @@
                       <img src="assets/images/star.svg" width="18" height="18" onclick="openNav();" data-placement="bottom" title="Hinde Starred Items"/>
                     </div>
                       <div class="padding-left-6px" style="margin-top:15px;">
-                        <img src="assets/images/option.png" width="18" height="18" onclick="openNav();" class="dropbtn" data-placement="bottom" title="Mroe Items"/>
+                        <img src="assets/images/option.png" width="18" height="18" onclick="openNav();" class="header-option" data-placement="bottom" title="Mroe Items"/>
                       </div>
       <!--rigth close-->
 
