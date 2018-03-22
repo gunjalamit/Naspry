@@ -132,7 +132,7 @@
       <div class="links users"><a href="/lonar2-master/Nasprybot.php" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
       <div class="links users"><a href="/lonar2-master/priya.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;priya</a></div>
       <div class="links users"><a href="/lonar2-master/yogs.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
-      <div class="links users"><a href="/lonar2-master/amit.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
+      <div class="links users active-element"><a href="/lonar2-master/amit.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
       <div class="links users"><a href="/lonar2-master/nagesh.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;nagesh</a></div>
       <div class="links users"><a href="/lonar2-master/shweta.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;shweta</a></div>
       <div class="links users"><a href="/lonar2-master/rohan.php" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan (you)</a></div>

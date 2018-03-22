@@ -129,7 +129,7 @@
     </div>
     <div id="persoldiv" style="height:220px;">
       <div class="links users"><a href="#" class="bodyclr">Direct Messages</a><a href="#" rel="tooltip" title="Open a direct message"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
-      <div class="links users"><a href="/lonar2-master/Nasprybot.php" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
+      <div class="links users active-element"><a href="/lonar2-master/Nasprybot.php" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
       <div class="links users"><a href="/lonar2-master/priya.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;priya</a></div>
       <div class="links users"><a href="/lonar2-master/yogs.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
       <div class="links users"><a href="/lonar2-master/amit.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>

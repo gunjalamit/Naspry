@@ -79,3 +79,15 @@ input:focus {
 .header-color{
   color:#757575;
 }
+#channeldiv .active-element > a{
+  display: block;
+  border-radius: 2px;
+  color:white;
+  background-color: #4c9689;
+}
+#persoldiv .active-element > a{
+  display: block;
+  border-radius: 2px;
+  color:white;
+  background-color: #4c9689;
+}

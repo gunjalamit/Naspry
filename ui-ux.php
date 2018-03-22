@@ -125,7 +125,7 @@
         <div class="links users"><a href="/lonar2-master/" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
         <div class="links users"><a href="/lonar2-master/random.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
         <div class="links users"><a href="/lonar2-master/code.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
-        <div class="links users"><a href="/lonar2-master/ui-ux.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
+        <div class="links users active-element"><a href="/lonar2-master/ui-ux.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
     </div>
     <div id="persoldiv" style="height:220px;">
       <div class="links users"><a href="#" class="bodyclr">Direct Messages</a><a href="#" rel="tooltip" title="Open a direct message"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>

@@ -40,6 +40,7 @@
     <script src="assets/js/channels.js"></script>
     <script src="assets/js/dropdown.js"></script>
     <script src="assets/js/option-menu.js"></script>
+    <script src="assets/js/attachment.js"></script>
 
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -122,7 +123,7 @@
     <div id="channeldiv" style="height:180px;">
         <div class="links users" id="channelid"><a href="#" class="bodyclr" onclick="backcolor();">Channels</a><a href="#" rel="tooltip" title="Create a channel"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
         <div class="links users"><a href="/lonar2-master/code.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
-        <div class="links users"><a href="/lonar2-master/" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
+        <div class="links users active-element"><a href="/lonar2-master/">&nbsp;#&nbsp;&nbsp;general</a></div>
         <div class="links users"><a href="/lonar2-master/random.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
         <div class="links users"><a href="/lonar2-master/code.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
         <div class="links users"><a href="/lonar2-master/ui-ux.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
@@ -145,19 +146,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -241,24 +229,24 @@
 
           <!-- Div Content edit here -->
           <!--content starts-->
-          <div id="msgDiv" style="margin-top:60px;margin-bottom:60px">
+          <div id="msgDiv" style="margin-top:0px;margin-bottom:60px">
             <!--msg table starts-->
             <table border="0" id="msgTable" class="rcorners">
 
             </table>
             </div>
+<dic class="attach-btn-popup"
 
 
 
 <!--msg table ends-->
         <div class="fixed">
-
-        <table>
-          <tr>
-          <td><input class="attach-btn" type="button" value="+"></td>
-          <td style="width:1300px"><input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
-          </tr>
-        </table>
+            <table>
+              <tr>
+              <td><input class="attach-btn" type="button" value="+" onclick=""></td>
+              <td style="width:1300px"><input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
+              </tr>
+            </table>
         </div>
 
             <!--content ends-->

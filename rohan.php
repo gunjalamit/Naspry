@@ -135,7 +135,7 @@
       <div class="links users"><a href="/lonar2-master/amit.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
       <div class="links users"><a href="/lonar2-master/nagesh.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;nagesh</a></div>
       <div class="links users"><a href="/lonar2-master/shweta.php" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;shweta</a></div>
-      <div class="links users"><a href="/lonar2-master/rohan.php" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan (you)</a></div>
+      <div class="links users active-element"><a href="/lonar2-master/rohan.php" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan (you)</a></div>
     </div>
     <div class="links" id="invitediv" style="height:50px;">
       <a href="#" class="bodyclr links">&nbsp;+&nbsp;&nbsp;Invite People</a><br>

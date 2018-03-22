@@ -123,7 +123,7 @@
         <div class="links users" id="channelid"><a href="#" class="bodyclr" onclick="backcolor();">Channels</a><a href="#" rel="tooltip" title="Create a channel"><img src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
         <div class="links users"><a href="/lonar2-master/code.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
         <div class="links users"><a href="/lonar2-master/" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
-        <div class="links users"><a href="/lonar2-master/random.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
+        <div class="links users active-element"><a href="/lonar2-master/random.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
         <div class="links users"><a href="/lonar2-master/code.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
         <div class="links users"><a href="/lonar2-master/ui-ux.php" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
     </div>
