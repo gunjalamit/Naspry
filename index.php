@@ -175,8 +175,8 @@
                   </div>
                   <div class="row">
                         <div class="col-sm-12" >
-                                <label id="staryellowid">
-                                  <img src="assets/images/star.svg" onclick="staryellowclick()" width="12" height="12"  data-toggle="tooltip" data-placement="bottom" title="Star this channel"/> |
+                                <label id="staryellowid" onclick="staryellowclick()">
+                                  <img src="assets/images/star.svg" width="12" height="12"  data-toggle="tooltip" data-placement="bottom" title="Star this channel"/> |</label>
 
                                   <img src="assets/images/usericon.jpg" data-toggle="tooltip" data-placement="bottom" title="View member list" onclick="assets/images/pngfill.png" width="12" height="12"/>
 
