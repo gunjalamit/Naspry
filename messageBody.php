@@ -4,12 +4,12 @@
 
 
                     <div id="content">
-
+<!--
                       <div id="attach-btn-popup" class="popover popover-default">
                           <a href="#">Code or text Snippet</a><br>
                           <a href="#">Post</a><br>
                           <input type="file" value="Your Computer">
-                     </div>
+                     </div> -->
 
 
                     <div id="msgDiv" style="margin-top:60px;margin-bottom:60px">
