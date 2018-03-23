@@ -3,7 +3,7 @@
                     <!--content starts-->
 
 
-                    <div id="content">
+                    <div id="content" style="margin-left: 0;">
 <!--
                       <div id="attach-btn-popup" class="popover popover-default">
                           <a href="#">Code or text Snippet</a><br>

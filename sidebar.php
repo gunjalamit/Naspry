@@ -21,7 +21,7 @@
         <div class="container-fluid">
 
             <div class="row" style="margin-top:30px;">
-                <div id="navigation" class="col-lg-2 col-md-3 col-sm-3" style="background-color:#4d394b;margin-top:-30px;height:700px;">
+                <div id="navigation" class="col-lg-2 col-md-3 col-sm-3" style="position: fixed;background-color:#4d394b;margin-top:-30px;height:700px;">
 
 
 
@@ -86,7 +86,7 @@
                                         <img align="right" src="assets/images/icon-plus.png" height="17" width="17"/>
                                     </a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
-                                <div class="links users"><a href="#" class="bodyclr active-element">&nbsp;#&nbsp;&nbsp;general</a></div>
+                                <div class="links users active-element"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;test</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
@@ -95,7 +95,7 @@
                                 <div class="links users">
                                     <a href="#" class="bodyclr"  rel="tooltip" title="Open a direct message">Direct Messages
                                         <img align="right" src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
-                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
+                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Shwetabot</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;priya (you)</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
