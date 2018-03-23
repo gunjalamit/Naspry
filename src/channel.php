@@ -14,7 +14,7 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <div name="channel header" style="padding-left:20%;padding-right:20%;padding-top:0%;padding-bottom:5%;  margin:50px">
-        <span align="left" style="font-family: calibri;font-size:20px; font-weight: bolder">
+        <span  style="font-family: calibri;font-size:20px; font-weight: bolder">
             <h1><b>
 
          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Create a channel</b></h1></span>
@@ -73,7 +73,7 @@
   </div>
 </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
 
 
 </body>

@@ -1,4 +1,5 @@
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/channel/createChanelJs.js"></script>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">About</a>
@@ -80,7 +81,7 @@
                             </div>
                             <div id="channeldiv" style="height:180px;">
                                 <div class="links users" id="channelid">
-                                    <a href="channel.php" class="bodyclr" onclick="backcolor();"  rel="tooltip" title="Create a channel">
+                                    <a href="channel.php" class="bodyclr" rel="tooltip" title="Create a channel">
                                         Channels
                                         <img align="right" src="assets/images/icon-plus.png" height="17" width="17"/>
                                     </a></div>
