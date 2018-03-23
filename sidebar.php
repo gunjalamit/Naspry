@@ -1,12 +1,60 @@
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>#general | team-gsm</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/corners.css" rel="stylesheet">
+        <link href="assets/css/right-side-menu.css" rel="stylesheet">
+        <link href="assets/css/bell.css" rel="stylesheet">
+        <link href="assets/css/channel.css" rel="stylesheet">
+        <link href="assets/css/bodytext.css" rel="stylesheet">
+        <link href="assets/css/divpadding.css" rel="stylesheet">
+        <link href="assets/css/dropdown.css" rel="stylesheet">
+        <link href="assets/css/tooltip.css" rel="stylesheet">
+        <link href="assets/css/option-menu.css" rel="stylesheet">
+        <link href="assets/css/msgDisplay.css" rel="stylesheet">
+        <link href="assets/css/notification_dropdown.css" rel="stylesheet">
+        <link href="assets/css/scrollbar.css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+        <script src="assets/js/bodyJs/contentJavaScript.js"></script>
+        <script src="assets/js/dropdowm.js"></script>
+        <script src="assets/js/dropjs.js"></script>
+        <script src="assets/js/headerclick.js"></script>
+        <script src="assets/js/right-side-menu.js"></script>
+        <script src="assets/js/bellfunction.js"></script>
+        <script src="assets/js/belltooltip.js"></script>
+        <script src="assets/js/popupmsg.js"></script>
+        <!--script src="assets/js/channels.js"></script-->
+        <script src="assets/js/dropdown.js"></script>
+        <script src="assets/js/option-menu.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="assets/js/channel/createChanelJs.js"></script>
+
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <h4>Starred Items</h4>
+            <hr style="border-bottom:3px solid #2ea664;">
+            <p style="color:#b1b1b1;">You haven’t starred any messages or files yet. </p>
         </div>
+
 
         <div id="optionmenu" class="menuoption">
             <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeOptionMenu()">&times;</a> -->
@@ -95,7 +143,7 @@
                                 <div class="links users">
                                     <a href="#" class="bodyclr"  rel="tooltip" title="Open a direct message">Direct Messages
                                         <img align="right" src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
-                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Shwetabot</a></div>
+                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Nasprybot</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;priya (you)</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
