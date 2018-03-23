@@ -17,7 +17,7 @@
              <a href="#"><img src="assets/images/wnew.png" height="28" width="28"/>Whats new</a>
               <a href="#">Keyboard Shotcut</a>
           </div>
-                    <div id="header"style="margin-left:243px;">
+                    <div id="header" style="margin-left: 15px;">
                     <div class="row head-css background-f5" style="width:88%;">
 
                         <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"> -->

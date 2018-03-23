@@ -86,7 +86,7 @@
                                         <img align="right" src="assets/images/icon-plus.png" height="17" width="17"/>
                                     </a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
-                                <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
+                                <div class="links users"><a href="#" class="bodyclr active-element">&nbsp;#&nbsp;&nbsp;general</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;test</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
