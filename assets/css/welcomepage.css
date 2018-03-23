@@ -1,0 +1,143 @@
+body
+{
+    padding-top: 54px;
+}
+
+@media (min-width: 992px)
+{
+    body
+    {
+        padding-top: 0px;
+    }
+}
+
+.carousel-item
+{
+    height: 65vh;
+    min-height: 300px;
+
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+.portfolio-item
+{
+    margin-bottom: 30px;
+}
+
+.bg-dark{
+  background-color: red !important;
+}
+
+.navbar-brand
+{
+  font-family: Lato,appleLogo,sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 0px;
+}
+.form-inline{
+  align-items: flex-end;
+}
+
+.nav-item
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar
+{
+  padding: 8px;
+}
+
+
+.page-home
+{
+  padding-top:7rem;
+  padding-bottom:0;
+  padding-right: 1rem;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.screen-pos
+{
+  position: relative;
+
+}
+
+.welcome__header {
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.welcome__header_line
+{
+    font-size: 5rem;
+    font-family :Times New Roman,Georgia,serif;
+    font-weight: 900;
+    line-height: 1.05;
+    max-width: 14em;
+}
+
+.welcome_column
+{
+    grid-template-columns: 40.24390244% 48.7804878%;
+}
+
+.welcome_header_para
+{
+  font-family: appleLogo,sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #5b5e6d;
+  max-width: 44rem;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.welcome_signin_link
+{
+  font-size: .8rem;
+  font-family: Slack-Averta,appleLogo,sans-serif;
+  font-weight: 400;
+  line-height: 1.2rem;
+  letter-spacing: normal;
+  padding-top: 1rem;
+}
+
+.btn_style
+{
+  font-family: appleLogo,sans-serif;
+  font-size: .875rem;
+  font-weight: bold;
+}
+
+.welcome_page_bottom_grey
+{
+  background-color: #f5f5f5;
+  overflow: hidden;
+  padding: 3rem 0;
+  border-top: 1px solid #ebebeb;
+
+}
+
+.welcome_b_header
+{
+
+  color: #323648;
+  font-family: "Times New Roman",Georgia,serif;
+  font-weight: bold;
+
+  letter-spacing: normal;
+  text-align: center;
+}
