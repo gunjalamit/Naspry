@@ -25,8 +25,10 @@
         <link href="assets/css/dropdown.css" rel="stylesheet">
         <link href="assets/css/tooltip.css" rel="stylesheet">
         <link href="assets/css/option-menu.css" rel="stylesheet">
+        <link href="assets/css/msgDisplay.css" rel="stylesheet">
         <link href="assets/css/notification_dropdown.css" rel="stylesheet">
         <link href="assets/css/scrollbar.css" rel="stylesheet">
+
 
     </head>
 
@@ -38,13 +40,13 @@
         <script src="assets/js/right-side-menu.js"></script>
         <script src="assets/js/bellfunction.js"></script>
         <script src="assets/js/belltooltip.js"></script>
+        <script src="assets/js/popupmsg.js"></script>
         <!--script src="assets/js/channels.js"></script-->
         <script src="assets/js/dropdown.js"></script>
         <script src="assets/js/option-menu.js"></script>
       <?php include 'sidebar.php' ?>
-      <?php include 'header.php' ?>      
-      <?php include 'messageBody.php' ?>      
+      <?php include 'header.php' ?>
+      <?php include 'messageBody.php' ?>
     </body>
 
 </html>
-
