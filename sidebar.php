@@ -7,15 +7,15 @@
             <a href="#">Contact</a>
         </div>
 
-        <div id="optionmenu" class="menuoption">
+        <!-- <div id="optionmenu" class="menuoption">
             <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeOptionMenu()">&times;</a> -->
-            <a href="#">Your files</a>
+          <!--  <a href="#">Your files</a>
             <a href="#">All FIles</a>
             <a href="#">workspace directory</a>
             <a href="#">Help</a>
             <a href="#">Whats new</a>
             <a href="#">Keyboard Shotcut</a>
-        </div>
+        </div> -->
 
         <div class="container-fluid">
 

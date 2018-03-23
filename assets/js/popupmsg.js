@@ -4,7 +4,8 @@ function msgPopup() {
   if (flagmenu == 0) {
 
       this.flagmenu=1;
-    document.getElementById("msgdiv").style.width = "1250px";
+    document.getElementById("msgdiv").style.width = "800px";
+    document.getElementById("msgdiv").style.marginRight = "250px";
     document.getElementById("messageBox").style.width = "50";
   }
   else{

@@ -13,19 +13,43 @@
 
 
            <div id="optionmenu" class="menuoption">
+             <table>
      <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeOptionMenu()">&times;</a> -->
-     <a href="#"><img src="assets/images/file-menu.png" height="22" width="22"/>Your Files</a>
-     <a href="#"><img src="assets/images/allfiles.png" height="28" width="28"/>All FIles</a>
-     <a href="#"><img src="assets/images/directory.png" height="28" width="28"/>workspace directory</a>
-     <a href="#"><img src="assets/images/help.png" height="22" width="22"/>Help</a>
-     <a href="#"><img src="assets/images/wnew.png" height="28" width="28"/>Whats new</a>
-     <a href="#">Keyboard Shotcut</a>
+                 <tr><td><a href="#"><img src="assets/images/file-menu.png" height="22" width="22"/></td><td>Your Files</a></td></tr>
+                 <tr><td><a href="#"><img src="assets/images/allfiles.png" height="28" width="28"/></td><td>All FIles</a></td></tr>
+                 <tr><td><a href="#"><img src="assets/images/directory.png" height="28" width="28"/></td><td>workspace directory</a></td></tr>
+                 <tr><td><a href="#"><img src="assets/images/help.png" height="22" width="22"/></td><td>Help</a></td></tr>
+                 <tr><td><a href="#"><img src="assets/images/wnew.png" height="28" width="28"/></td><td>Whats new</a></td></tr>
+                 <tr><td><a href="#"><img src="assets/images/keyboard.png" height="28" width="28"/></td><td>Keyboard Shotcut</a></td></tr>
+              </table>
+
 
  </div>
+ <div id="settingmenu" class="menusetting">
+
+<!-- <a href="javascript:void(0)" class="closebtn" onclick="closeOptionMenu()">&times;</a> -->
+      <a href="#">Jump to Date</a>
+      <a href="#">Invite new member to join</a>
+      <a href="#">view channel details</a>
+      <a href="#">Additional Option</a>
+      <hr>
+      <a href="#">Notification prefences</a>
+      <a href="#">Mute #UI-UX</a>
+      <hr>
+      <a href="#">Add an App</a>
+      <hr>
+      <a href="#">Leave UI-UX</a>
+
+</div>
+
+
+                        <div id="header" style="margin-left:243px;" >
 
 
 
-                    <div id="header"style="margin-left:243px;">
+
+
+                       <!--  -->
                     <div class="row head-css background-f5" style="width:88%;">
 
                         <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
@@ -68,7 +92,7 @@
                                 <img src="assets/images/info.png" width="18" height="18" onclick="infoclick();" data-placement="bottom" title="Only paid workspace can start calls from channel"/>
                             </div>
                             <div class="padding-left-6px" style="margin-top:15px">
-                                <img src="assets/images/icon-settings.png" width="18" height="18" onclick="settingclick();" data-placement="bottom" title="Channel Setting"/>
+                                <img src="assets/images/icon-settings.png" width="18" height="18" onclick="openSettingMenu();" data-placement="bottom" title="Channel Setting"/>
                             </div>
                             <div class="search-box padding-left-6px" >
                                 <div class="input-group">
@@ -93,5 +117,6 @@
 
                         </div>
                     </div>
-                  </div>
+                 </div>
+
                     <!-- Div Header ends here -->
