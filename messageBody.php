@@ -27,6 +27,7 @@
         <link href="assets/css/option-menu.css" rel="stylesheet">
         <link href="assets/css/notification_dropdown.css" rel="stylesheet">
         <link href="assets/css/scrollbar.css" rel="stylesheet">
+        <link href="assets/css/attach-btn.css" rel="stylesheet">
 
     </head>
 
@@ -41,21 +42,34 @@
         <!--script src="assets/js/channels.js"></script-->
         <script src="assets/js/dropdown.js"></script>
         <script src="assets/js/option-menu.js"></script>
-
-        <!-- Div Content edit here -->
+        <script src="assets/js/attachment.js"></script>
+            <!-- Div Content edit here -->
                     <!--content starts-->
-                    <div id="content" class="border-element" style="margin-left:227px;">
+                    <div id="content" class="" style="margin-left:227px;">
                       <div id="msgDiv" style="margin-top:60px;margin-bottom:60px">
                           <!--msg table starts-->
                           <table border="0" cellspacing="5" cellpadding="2" id="msgTable" class="tablecorners">
 
                           </table>
                       </div>
+
+                      <!-- PopoverX content -->
+
+                      <div id="popover-content-login" class="hide">
+                          <ul class="list-group">
+                              <li class="list-group-item">Post</li>
+                              <li class="list-group-item"><input type="file"></li>
+                          </ul>
+                    </div>
+
                       <!--msg table ends-->
                       <div class="fixed">
                           <table>
                               <tr>
-                                  <td><input class="attach-btn" type="button" value="+"></td>
+                                  <td>
+                                    <a data-toggle="popover" data-container="body" data-placement="right" type="button" data-html="true" href="#" id="login">
+                                    <input id="attach-btn-id" class="attach-btn" type="button" value="+">
+                                  </td>
                                   <td style="width:1300px"><input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
                               </tr>
                           </table>
