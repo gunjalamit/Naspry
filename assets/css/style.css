@@ -91,3 +91,9 @@ input:focus {
   color:white;
   background-color: #4c9689;
 }
+a:link{
+  text-decoration: none;
+}
+a:link:hover{
+  color: white;
+}

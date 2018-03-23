@@ -1,5 +1,5 @@
    <!-- Div Header edit here -->
-
+                    <div id="header"style="margin-left:243px;">
                     <div class="row head-css background-f5" style="width:88%;">
 
                         <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
@@ -67,4 +67,5 @@
 
                         </div>
                     </div>
+                  </div>
                     <!-- Div Header ends here -->

@@ -27,17 +27,18 @@
                     <div class="row" style="background-color:#4d394b;height:100px;">
                         <div class="col-sm-10" id="sidebar">
                             <div class="dropdown"><p style="color:white; font-size:20px;"> <b>team-gsm </b>
-                                    <label onclick="myFunction();" class="dropbtn dropdown-toggle" ></label><br><img src="assets/images/icon-active.png" width="15" height="15" ><label style="font-size:15px; color:gray;margin-top:-1px;">&nbsp;&nbsp;rohan</label>
+                                    <label onclick="myFunction();" class="dropbtn dropdown-toggle" style="background-color:#4d394b;"></label><br>
+                                    <img src="assets/images/icon-active.png" width="15" height="15" ><label style="font-size:15px; color:gray;margin-top:-1px;">&nbsp;&nbsp;priya</label>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <div>
+                                    <div style="font-size:15px;">
                                         <table>
                                             <tr>
-                                                <td rowspan="2"><img src="assets/images/profile.png" width="40" height="40" ></td>
-                                                <td><th>Priya</th></td>
+                                                <td rowspan="2"><img src="assets/images/profile.png" width="30" height="30" ></td>
+                                                <td><th>priya</th></td>
                                             </tr>
                                             <tr>
                                                 <td></td>
-                                                <td><h6 style="color:gray;">priya khaire</h6></td>
+                                                <td><h6 style="color:gray;">Priya Khaire</h6></td>
                                             </tr>
                                         </table>
                                         <a href="#" class="links">Set s Status</a>
@@ -54,7 +55,7 @@
                             <div class="dropdownbell">
                                 <a href="#" rel="tooltip" title="Notification"><img src="assets/images/icon-bell.png" onclick="bellfunction();" class="dropbtnbell"></a>
                                 <div id="mybell" class="dropdownbell-content">
-                                    <h6 style="color:gray; padding-left:10px;">Snooze notification_____</h6>
+                                    <h6 style="color:gray; padding-left:10px;margin-top:25px;">Snooze notification</h6>
                                     <a href="#" class="links">20 minuts</a>
                                     <a href="#" class="links">1 hour</a>
                                     <a href="#" class="links">2 hours</a>
@@ -66,7 +67,7 @@
                         </div>
                     </div>
 
-                    <div class="row" style="overflow-y: scroll;background-color:#4d394b;height:700px;">
+                    <div class="row" style="background-color:#4d394b;height:700px;">
                         <div class="col-sm-12" id="personaldiv" style="height:700px;">
                             <div style="height:10px;" class="links">
                                 <a href="#" class="bodyclr">.</a>
@@ -86,7 +87,7 @@
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;general</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;random</a></div>
-                                <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;code</a></div>
+                                <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;test</a></div>
                                 <div class="links users"><a href="#" class="bodyclr">&nbsp;#&nbsp;&nbsp;ui-ux</a></div>
                             </div>
                             <div id="persoldiv" style="height:220px;">
@@ -94,12 +95,12 @@
                                     <a href="#" class="bodyclr"  rel="tooltip" title="Open a direct message">Direct Messages
                                         <img align="right" src="assets/images/icon-plus.png" height="17" width="17"/></a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-heart.png" height="15" width="15"/>&nbsp;Slackbot</a></div>
-                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;priya</a></div>
+                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;priya (you)</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;yogs</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;amit</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;nagesh</a></div>
                                 <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-inactive.png" height="15" width="15"/>&nbsp;shweta</a></div>
-                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan (you)</a></div>
+                                <div class="links users"><a href="#" class="bodyclr"><img src="assets/images/icon-active.png" height="15" width="15"/>&nbsp;rohan</a></div>
                             </div>
                             <div class="links" id="invitediv" style="height:50px;">
                                 <a href="#" class="bodyclr links">&nbsp;+&nbsp;&nbsp;Invite People</a><br>

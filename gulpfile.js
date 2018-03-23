@@ -28,7 +28,7 @@ gulp.task('default', ['vendor']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
-    proxy:"http://localhost/lonar2-master",
+    proxy:"http://localhost/Naspry3",
     // server: {
     //   baseDir: "./"
     // }
