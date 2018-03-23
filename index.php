@@ -42,8 +42,8 @@
         <script src="assets/js/dropdown.js"></script>
         <script src="assets/js/option-menu.js"></script>
       <?php include 'sidebar.php' ?>
-      <?php include 'header.php' ?>      
-      <?php include 'messageBody.php' ?>      
+      <?php include 'header.php' ?>
+      <?php include 'messageBody.php' ?>
     </body>
 
 </html>

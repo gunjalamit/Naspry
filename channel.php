@@ -20,24 +20,24 @@
          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Create a channel</b></h1></span>
 
         <label class="lightFont" align="left">
-             
+
             Channels are where your people communicate. They're best when organized around a topic:
              <p> #leads, for example.<p>
           </label> 
           <br>
-         
-        
+
+
            <!--toggle button-->
            <table  class="table"><tr>
             <td> <label class="switch">
               <input type="checkbox" checked>
               <span align="left" class="slider round"></span>
-              
+
             </label></td>
             <td style="display:block;"><label> Anyone in your workspace can view and join this channel.</label></td>
         </tr></table>
-       
-           
+
+
   <form>
     <div class="form-group">
       <label for="inputdefault">  Name</label>
@@ -49,7 +49,7 @@
     </div>
 
 
-            
+
     <div class="form-group">
       <label for="inputlg"> Purpose(Optional)</label>
       <input class="form-control input-lg" id="Purpose" type="text">
