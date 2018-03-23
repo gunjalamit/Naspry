@@ -13,6 +13,8 @@ function msgPopup() {
       document.getElementById("main").style.marginRight = "0";
   }
 }
+
+
 function setMsg1(event){
 
   if (event.which == 13 || event.keyCode == 13) {

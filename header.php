@@ -1,36 +1,26 @@
    <!-- Div Header edit here -->
    <div id="msgdiv" style="border:1px"  class="myDiv input-group ">
              <form>
-             <input id="topicbox" onkeypress="return setMsg1(event)" name="topicbox" type="text-area" style="height:100px;width:400px" class="form-control" placeholder="Add a topic" id="text"/>
+             <input id="topicbox" onkeypress="return setMsg1(event)" name="topicbox" type="text" class="form-control" placeholder="Add a topic" id="text"/>
              <div style="padding-left: 245px;padding-top: 5px">
-               <div style="width:258px"></div>
-               <input type="button" class="btn btn-secondary" onclick="clgMsg()" value="cancel" name="cancel"/>
-
-
-                 <input type="button" class="btn btn-primary" style="background-color:green" onclick="setMsg()" value="setTopic" name="setTopic"/></div>
+               <input type="button" class="btn" onclick="clgMsg()" value="cancel" name="cancel"/>
+               <input type="button" class="btn" onclick="setMsg()" value="setTopic" name="setTopic"/></div>
            </form>
-           </div>
+    </div>
 
 
            <div id="optionmenu" class="menuoption">
-     <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeOptionMenu()">&times;</a> -->
-     <a href="#"><img src="assets/images/file-menu.png" height="22" width="22"/>Your Files</a>
-     <a href="#"><img src="assets/images/allfiles.png" height="28" width="28"/>All FIles</a>
-     <a href="#"><img src="assets/images/directory.png" height="28" width="28"/>workspace directory</a>
-     <a href="#"><img src="assets/images/help.png" height="22" width="22"/>Help</a>
-     <a href="#"><img src="assets/images/wnew.png" height="28" width="28"/>Whats new</a>
-     <a href="#">Keyboard Shotcut</a>
-
- </div>
-
-
-
+             <a href="#"><img src="assets/images/file-menu.png" height="22" width="22">Your Files</a>
+             <a href="#"><img src="assets/images/allfiles.png" height="28" width="28"/>All FIles</a>
+             <a href="#"><img src="assets/images/directory.png" height="28" width="28"/>workspace directory</a>
+             <a href="#"><img src="assets/images/help.png" height="22" width="22"/>Help</a>
+             <a href="#"><img src="assets/images/wnew.png" height="28" width="28"/>Whats new</a>
+              <a href="#">Keyboard Shotcut</a>
+          </div>
                     <div id="header"style="margin-left:243px;">
                     <div class="row head-css background-f5" style="width:88%;">
 
                         <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
-
-
                         <div class="col-sm-8 col-lg-7">
 
                             <div class="row">
