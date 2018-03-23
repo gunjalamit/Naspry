@@ -1,0 +1,25 @@
+.tablecorners {
+  border: 1px solid white;
+
+}
+.msgTable{
+  font-size: 15px;
+}
+.rcorners-circle
+{
+    border-radius:50%;
+    padding: 20px;
+}
+.userName{
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  width: 1000px;
+}
+.msg-sent-time{
+  color: grey;
+  font-size: 12px;
+}
+tr:hover#msgRow{
+  background-color: #f9f9f9;
+}

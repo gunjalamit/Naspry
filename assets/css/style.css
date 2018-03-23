@@ -1,0 +1,81 @@
+@media (min-width: 767px) {
+  #navigation {
+    position: fixed;
+  }
+}
+.links{
+  text-decoration: none;
+}
+div.parent {
+  position: relative;
+  height: 200px;
+  border: 3px solid #8AC007;
+}
+
+div.fixed {
+  position: fixed;
+  width: 98.6%;
+  bottom: 0px;
+}
+
+div.sticky {
+  position: sticky;
+  width: 50%;
+  bottom: 10px;
+}
+
+.fixed input[type=text] {
+  width: 82%;
+  padding: 8px;
+  padding-right: 0;
+  font-size: 15px;
+  margin: 8px 0;
+  border: 2px solid #bcbcbd;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #717274;
+}
+
+.attach-btn {
+  color: #bcbcbd;
+  width: 50px;
+  padding: 8px;
+  font-size: 15px;
+  border: 2px solid #bcbcbd;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: -6px;
+}
+
+.attach-btn:hover {
+  background-color: #56b68b;
+  color: white;
+  font-size: 15px;
+
+  border: 3px solid #2ea664;
+}
+.border-element{
+  border: 1px solid black;
+}
+.background-white{
+  background-color: white;
+}
+.background-f5{
+  background-color: #F5F5F5;
+}
+.head-css{
+  overflow:hidden
+  ;padding:10px;z-index:0;position:fixed;top:0;width: 100%;
+}
+.padding-left-6px{
+  padding-left: 15px;
+}
+.search-box{
+  padding-top: 10px;
+}
+.header-color{
+  color:#757575;
+}

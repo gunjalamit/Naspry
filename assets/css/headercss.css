@@ -1,0 +1,13 @@
+.bg-dark{
+  background-color: white !important
+}
+.navbar-dark .navbar-brand {
+    color: 1 !important
+}
+.nav-item{
+  color: black !important
+}
+.staryellowid:hover{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
