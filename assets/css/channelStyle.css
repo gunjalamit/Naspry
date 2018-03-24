@@ -20,8 +20,15 @@
 }
 
 .overlay-content {
+<<<<<<< HEAD
     top: 25%;
     width: 100%;
+=======
+    
+    top: 25%;
+    width: 100%;
+    text-align: center;
+>>>>>>> amit
     margin-top: 30px;
 }
 
@@ -34,7 +41,11 @@
     transition: 0.3s;
 }
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> amit
 
 .overlay .closebtn {
     position: absolute;
@@ -115,13 +126,23 @@ input:checked + .slider:before {
 .lightFont{
     color: #6c727c;font-size:5;display:inline-block;
 }
+<<<<<<< HEAD
 
 
+=======
+ 
+    
+>>>>>>> amit
 .formButton {background-color: white;
     color: black;
     border: 2px solid #e7e7e7;
 }
 .disabled {
     opacity: 0.6;
+<<<<<<< HEAD
 
 }
+=======
+  
+}
+>>>>>>> amit

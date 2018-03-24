@@ -70,9 +70,12 @@
 
             <div class="row" style="margin-top:30px;">
                 <div id="navigation" class="col-lg-2 col-md-3 col-sm-3" style="position: fixed;background-color:#4d394b;margin-top:-30px;height:700px;">
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> amit
                     <div class="row" style="background-color:#4d394b;height:100px;">
                         <div class="col-sm-10" id="sidebar">
                             <div class="dropdown"><p style="color:white; font-size:20px;"> <b>team-gsm </b>

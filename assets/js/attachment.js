@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 $(function(){
     $('[rel="popover"]').popover({
@@ -10,3 +11,8 @@ $(function(){
         e.preventDefault();
     });
 });
+=======
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+>>>>>>> amit

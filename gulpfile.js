@@ -28,7 +28,11 @@ gulp.task('default', ['vendor']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
+<<<<<<< HEAD
     proxy:"http://localhost/Naspry3",
+=======
+    proxy:"http://localhost/Naspry3/welcome.php",
+>>>>>>> amit
     // server: {
     //   baseDir: "./"
     // }

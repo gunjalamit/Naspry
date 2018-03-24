@@ -478,7 +478,11 @@
                 // How many errors did we find?
                 if (settings.options.semanticallyStrict && errorsFound.length === 1) {
                   // Only one? Being strict? Just output it.
+<<<<<<< HEAD
                   $helpBlock.html(errorsFound[0] +
+=======
+                  $helpBlock.html(errorsFound[0] + 
+>>>>>>> amit
                     ( settings.options.prependExistingHelpBlock ? $helpBlock.data("original-contents") : "" ));
                 } else {
                   // Multiple? Being sloppy? Glue them together into an UL.

@@ -1,6 +1,10 @@
 .bodyclr
 {
+<<<<<<< HEAD
   color: white !important;
+=======
+  color: white;
+>>>>>>> amit
 }
 .active-element{
   background-color: #4c9689;

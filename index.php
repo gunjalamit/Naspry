@@ -44,6 +44,7 @@
         <!--script src="assets/js/channels.js"></script-->
         <script src="assets/js/dropdown.js"></script>
         <script src="assets/js/option-menu.js"></script>
+<<<<<<< HEAD
 
         <div class="row">
             <div class="col-sm-2">
@@ -62,6 +63,11 @@
               </div>
             </div>
         </div>
+=======
+      <?php include 'sidebar.php' ?>
+      <?php include 'header.php' ?>
+      <?php include 'messageBody.php' ?>
+>>>>>>> amit
     </body>
 
 </html>

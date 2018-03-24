@@ -44,8 +44,13 @@
             <a class="nav-link" href="#"> Find your workspace </a>
           </li>
           <li>
+<<<<<<< HEAD
             
             <a data-gtm-click="optout_nav_signin" href="https://slack.com/signin" class="btn_sticky btn_filled" data-qa="sign_in" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=nav_sign_in">
+=======
+
+            <a  href="index.php" data-gtm-click="optout_nav_signin" class="btn_sticky btn_filled" data-qa="sign_in" data-clog-event="WEBSITE_CLICK" data-clog-params="click_target=nav_sign_in">
+>>>>>>> amit
               Sign in
             </a>
             <div></div>
