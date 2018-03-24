@@ -53,7 +53,7 @@ $(function(){
 <body>
           <div id="content" style="margin-left: 242px;">
 
-              <div id="msgDiv" style="margin-top:60px;margin-bottom:60px">
+              <div id="msgDiv1" style="margin-top:60px;margin-bottom:60px">
 
                 <h6 class="" style="font-weight: bolder;padding-left:500px;padding-right:600px" id="msgTimeBar">Today</h6>
                         <script>
