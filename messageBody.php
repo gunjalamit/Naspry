@@ -51,14 +51,7 @@ $(function(){
 </div>
 </head>
 <body>
-                    <div id="content" style="margin-left: 0;">
-<!--
-                      <div id="attach-btn-popup" class="popover popover-default">
-                          <a href="#">Code or text Snippet</a><br>
-                          <a href="#">Post</a><br>
-                          <input type="file" value="Your Computer">
-                     </div> -->
-
+                    <div id="content" style="margin-left: 242px;">
 
                     <div id="msgDiv" style="margin-top:60px;margin-bottom:60px">
                         <!--msg table starts-->

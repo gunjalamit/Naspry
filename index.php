@@ -44,9 +44,24 @@
         <!--script src="assets/js/channels.js"></script-->
         <script src="assets/js/dropdown.js"></script>
         <script src="assets/js/option-menu.js"></script>
-      <?php include 'sidebar.php' ?>
-      <?php include 'header.php' ?>
-      <?php include 'messageBody.php' ?>
+
+        <div class="row">
+            <div class="col-sm-2">
+               <?php include 'sidebar.php' ?>
+            </div>
+            <div class="col-sm-10">
+              <div class="row">
+                <div class="col-sm-12">
+                  <?php include 'header.php' ?>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                    <?php include 'messageBody.php' ?>
+                </div>
+              </div>
+            </div>
+        </div>
     </body>
 
 </html>

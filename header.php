@@ -48,7 +48,7 @@
    <div id="msgdiv" style="border:1px"  class="myDiv">
              <form>
              <input id="topicbox" name="topicbox" type="text" class="form-control" placeholder="Add a topic" id="text" style="width:200px;margin-left:240px;"/>
-             <div style="padding-left: 245px;padding-top: 5px">
+             <div style="padding-left: 0;padding-top: 5px">
                <input type="button" class="btn" onclick="clgMsg()" value="cancel" name="cancel"/>
                <input type="button" class="btn" onclick="setMsg()" value="setTopic" name="setTopic"/></div>
            </form>
