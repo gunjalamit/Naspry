@@ -23,8 +23,7 @@ gulp.task('vendor', function() {
 })
 
 // Default task
-gulp.task('default', ['vendor']);<<<<<<< HEAD
-32
+gulp.task('default', ['vendor']);
 
 
 // Configure the browserSync task
