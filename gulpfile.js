@@ -23,16 +23,14 @@ gulp.task('vendor', function() {
 })
 
 // Default task
-gulp.task('default', ['vendor']);
+gulp.task('default', ['vendor']);<<<<<<< HEAD
+32
+
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({
-<<<<<<< HEAD
     proxy:"http://localhost/Naspry3",
-=======
-    proxy:"http://localhost/Naspry3/welcome.php",
->>>>>>> amit
     // server: {
     //   baseDir: "./"
     // }
