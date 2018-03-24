@@ -58,6 +58,27 @@
 
 
                     <div id="msgDiv" style="margin-top:60px;margin-bottom:60px">
+                      <h6 style="padding-left:450px;padding-right:400px" id="msgTimeBar">Today</h6>
+                     <script>
+                     var date=new Date();
+                     var day=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+                     var month=['January','February','March','April','May','June','July','Augest','September','October','November','December'];
+                     var d=date.getDate();
+                     var ext=d%10;
+                     var ext1="th";
+                     if(ext===1)
+                     {
+                       ext1="st";
+                     }
+                     else if (ext===2) {
+                       ext1=="nd";
+                     }
+                     else if (ext===3) {
+                       ext1=="rd";
+                     }
+                     document.getElementById("msgTimeBar").innerHTML=day[date.getDay()]+","+month[date.getMonth()]+' '+d+ext1;
+
+                     </script>
                         <!--msg table starts-->
                         <table border="0" cellspacing="5" cellpadding="2" id="msgTable" class="tablecorners">
 
