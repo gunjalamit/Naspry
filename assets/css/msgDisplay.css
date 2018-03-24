@@ -1,0 +1,39 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.myDiv {
+  top: 77px;
+  height: 100%;
+  height:230px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  border: 1px;
+  overflow-x: hidden;
+  transition: 0.0s;
+  /* padding-top: 100px; */
+}
+
+.myDiv a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.0s;
+}
+
+
+
+
+
+@media screen and (max-height: 450px) {
+  .myDiv {
+    padding-top: 15px;
+  }
+  .myDiv a {
+    font-size: 15px;
+  }
+}
