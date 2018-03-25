@@ -14,10 +14,9 @@
   <a href="index.php" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <div name="channel header" style="padding-left:20%;padding-right:20%;padding-top:0%;padding-bottom:5%;  margin:50px">
-        <span  style="font-family: calibri;font-size:20px; font-weight: bolder">
+        <span  style="font-size:20px; font-weight: bolder">
             <h1><b>
 
-<<<<<<< HEAD
          Create a channel</b></h1></span>
 
         <label class="lightFont" align="left">
@@ -28,39 +27,31 @@
           <br>
 
 
-=======
-         &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Create a channel</b></h1></span>
+         Create a channel</b></h1></span>
 
         <label class="lightFont" align="left">
-             
+
             Channels are where your people communicate. They're best when organized around a topic:
              <p> #leads, for example.<p>
-          </label> 
+          </label>
           <br>
-         
-        
->>>>>>> amit
+
+
            <!--toggle button-->
-           <table  class="table"><tr>
+           <table border=1><tr>
             <td> <label class="switch">
               <input type="checkbox" checked>
               <span align="left" class="slider round"></span>
-<<<<<<< HEAD
 
             </label></td>
             <td style="display:block;"><label> Anyone in your workspace can view and join this channel.</label></td>
         </tr></table>
 
-
-=======
-              
             </label></td>
             <td style="display:block;"><label> Anyone in your workspace can view and join this channel.</label></td>
         </tr></table>
-       
-           
->>>>>>> amit
-  <form>
+
+<form>
     <div class="form-group">
       <label for="inputdefault">  Name</label>
 
@@ -71,11 +62,6 @@
     </div>
 
 
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> amit
     <div class="form-group">
       <label for="inputlg"> Purpose(Optional)</label>
       <input class="form-control input-lg" id="Purpose" type="text">

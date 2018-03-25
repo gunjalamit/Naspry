@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
 body
 {
+      font-family: NotoSansJP,Slack-Lato,appleLogo,sans-serif;
 }
 
 @media (min-width: 992px)
