@@ -15,3 +15,9 @@ ul #menu_items li.file_menu_item a{
 #myPopover{
   margin-left: -35px;
 }
+label{
+  color: #009afd;;
+  cursor: pointer;
+}
+#file_input_id{
+  display:none;

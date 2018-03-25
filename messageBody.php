@@ -95,9 +95,9 @@
                             </span></div>
 
                               <li data-which="choose" class="file_menu_item">
-                                <a href="" target="_blank">
-                                  Your computer
-                                </a></li>
+                                <label for="file_input_id">Your Computer</label>
+                                  <input type="file" id="file_input_id">
+                                </li>
                             </ul>
                      </div>
 
