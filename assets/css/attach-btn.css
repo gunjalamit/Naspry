@@ -17,3 +17,10 @@ ul #menu_items li.file_menu_item a{
 }
 #file_input_id{
   display:none;
+}
+.hide{
+  display: none;
+}
+.grey{
+  color: #424242 !important;
+}

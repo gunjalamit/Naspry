@@ -51,11 +51,6 @@
         <link rel="stylesheet" href="vendor\bootstrap\js\bootstrap.min.js">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="vendor\bootstrap\css\bootstrap.min.css"></script>
-	<style>
-	.hide{
-		display:none;		
-	}
-	</style>
 
         <script>
         $(function(){
@@ -86,11 +81,11 @@
                               </span>
                             </div>
 
-                            <li data-which="snippet" class="file_menu_item"><a target="_blank" href="">
+                            <li data-which="snippet" class="file_menu_item"><a class="grey" target="_blank" href="">
                               Code or text snippet
                             </a></li>
 
-                            <li data-which="snippet" class="file_menu_item"><a target="_blank" href="">
+                            <li data-which="snippet" class="file_menu_item"><a class="grey" target="_blank" href="">
                               Post
                             </a></li>
 
@@ -99,7 +94,7 @@
                             </span></div>
 
                               <li data-which="choose" class="file_menu_item">
-                                <label for="file_input_id">Your Computer</label>
+                                <label class="grey" for="file_input_id">Your Computer</label>
                                   <input type="file" id="file_input_id">
                                 </li>
                             </ul>
@@ -110,7 +105,7 @@
                       <h6 style="padding-left:450px;padding-right:400px" id="msgTimeBar">Today</h6>
                      <script>
                      var date=new Date();
-                     var day=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+                     var day=['Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
                      var month=['January','February','March','April','May','June','July','Augest','September','October','November','December'];
                      var d=date.getDate();
                      var ext=d%10;
