@@ -28,6 +28,7 @@
         <link href="assets/css/msgDisplay.css" rel="stylesheet">
         <link href="assets/css/notification_dropdown.css" rel="stylesheet">
         <link href="assets/css/scrollbar.css" rel="stylesheet">
+        <link href="assets/css/attach-btn.css" rel="stylesheet">
 
     </head>
 
@@ -44,17 +45,65 @@
         <script src="assets/js/dropdown.js"></script>
         <script src="assets/js/option-menu.js"></script>
 
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="vendor\bootstrap\js\bootstrap.min.js">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="vendor\bootstrap\css\bootstrap.min.css"></script>
+	<style>
+	.hide{
+		display:none;		
+	}
+	</style>
+
+        <script>
+        $(function(){
+            $('[rel="popover"]').popover({
+                html: true,
+                content: function () {
+                    var clone = $($(this).data('popover-content')).clone(true).removeClass('hide');
+                    return clone;
+                }
+            }).click(function(e) {
+                e.preventDefault();
+            });
+        });
+        </script>
+
+
           <!-- Div Content edit here -->
                     <!--content starts-->
 
 
                     <div id="content" style="margin-left: 0;">
-<!--
-                      <div id="attach-btn-popup" class="popover popover-default">
-                          <a href="#">Code or text Snippet</a><br>
-                          <a href="#">Post</a><br>
-                          <input type="file" value="Your Computer">
-                     </div> -->
+                      <div id="myPopover" class="hide" >
+                        <ul id="menu_items" role="menu" style="list-style-type: none;">
+
+                            <div class="section_header">
+                              <span class="header_label menu_mini">
+                                 New…
+                              </span>
+                            </div>
+
+                            <li data-which="snippet" class="file_menu_item"><a target="_blank" href="">
+                              Code or text snippet
+                            </a></li>
+
+                            <li data-which="snippet" class="file_menu_item"><a target="_blank" href="">
+                              Post
+                            </a></li>
+
+                            <div class="section_header"><hr><span class="header_label menu_mini">
+                              Add a file from…
+                            </span></div>
+
+                              <li data-which="choose" class="file_menu_item">
+                                <label for="file_input_id">Your Computer</label>
+                                  <input type="file" id="file_input_id">
+                                </li>
+                            </ul>
+                     </div>
 
 
                     <div id="msgDiv" style="margin-top:60px;margin-bottom:60px">
@@ -76,7 +125,7 @@
                      else if (ext===3) {
                        ext1=="rd";
                      }
-                     document.getElementById("msgTimeBar").innerHTML=day[date.getDay()]+","+month[date.getMonth()]+' '+d+ext1;
+                     document.getElementById("msgTimeBar").innerHTML=day[date.getDay()]+", "+month[date.getMonth()]+' '+d+ext1;
 
                      </script>
                         <!--msg table starts-->
@@ -88,7 +137,7 @@
                     <div class="fixed">
                         <table>
                             <tr>
-                                <td><input id="attach-btn-id" class="attach-btn" type="button" value="+" data-toggle="popover-x" data-target="#attach-btn-popup" data-placement="top"></td>
+                                <td><input id="attach-btn-id" class="attach-btn" type="button" value="+" rel="popover" data-placement="top" data-popover-content="#myPopover"></td>
                                 <td style="width:1300px"><input type="text" id="message" onkeypress="return showMsg(event)" placeholder="Message #general"></td>
                             </tr>
                         </table>
